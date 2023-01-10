@@ -1,11 +1,8 @@
 package pl.javastart.task.service;
 
-import pl.javastart.task.data.Config;
-import pl.javastart.task.data.Offer;
-
 public class SalesRepresentative {
 
-    public Config config;
+    Config config;
 
     public SalesRepresentative() {
         this.config = new Config();
