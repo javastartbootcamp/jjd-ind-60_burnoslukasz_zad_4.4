@@ -1,23 +1,23 @@
 package pl.javastart.task.service;
 
-public class Config {
+class Config {
 
     private int minRequiredEarnings = 2000;
     private double percentage = 0.03;
 
-    public int getMinRequiredEarnings() {
+    int getMinRequiredEarnings() {
         return minRequiredEarnings;
     }
 
-    public void setMinRequiredEarnings(int minRequiredEarnings) {
+    void setMinRequiredEarnings(int minRequiredEarnings) {
         this.minRequiredEarnings = minRequiredEarnings;
     }
 
-    public double getPercentage() {
+    double getPercentage() {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 }

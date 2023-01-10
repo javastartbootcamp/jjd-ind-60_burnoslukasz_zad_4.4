@@ -6,7 +6,7 @@ public class Offer {
     private double value;
     private double percentage;
 
-    public boolean isValid() {
+    boolean isValid() {
         return valid;
     }
 
@@ -14,7 +14,7 @@ public class Offer {
         this.valid = valid;
     }
 
-    public double getValue() {
+    double getValue() {
         return value;
     }
 
@@ -22,7 +22,7 @@ public class Offer {
         this.value = value;
     }
 
-    public double getPercentage() {
+    double getPercentage() {
         return percentage;
     }
 
