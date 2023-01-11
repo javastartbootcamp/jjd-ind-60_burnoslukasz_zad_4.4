@@ -16,8 +16,10 @@ public class Main {
         CustomerService customerService = new CustomerService();
         customerService.payoutOffer(offer);
 
-        //        to juz nie jest mozliwe
-//        Offer offer1 = new Offer();
+//        test:
+//        double p = offer.getPercentage();
+//        System.out.println(p);
+
 //        offer1.setValid(true);
 //        offer1.setPercentage(-3);
 //        offer1.setValue(1000000);
